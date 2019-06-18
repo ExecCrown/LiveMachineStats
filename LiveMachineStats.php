@@ -120,9 +120,32 @@ switch ($Language)
 			"WRONG_PASSWORD" 	=> "Mauvais mot de passe!",
 			"NOT_SUPPORTED_OS" 	=> "Votre système d'exploitation ne supporte pas!",
 			"SUPPORTED_OS" 		=> "Soutenir uniquement les distributions Linux pour l'instant."
+		];		
+		break;
+		
+	case "en_US":	
+		$Lang = 
+		[
+			"TITLE" 			=> "Live-Maschinenstatistiken",
+			"UPDATED" 			=> "Daten aktualisiert.",
+			"NOW" 				=> "Jetzt",
+			"REFRESH"			=> "Aktualisierung",
+			"LOADING" 			=> "Wird geladen...",
+			"CPUUSAGE" 			=> "CPU auslastung",
+			"CORES" 			=> "Ader",
+			"VALUE" 			=> "Wert",
+			"NETWORK" 			=> "Netzwerk",
+			"LOGIN" 			=> "Einloggen",
+			"LOGOUT" 			=> "Ausloggen",
+			"USERNAME" 			=> "Nutzername",
+			"PASSWORD" 			=> "Passwort",
+			"WRONG_USERNAME" 	=> "Falscher Benutzername!",
+			"WRONG_PASSWORD" 	=> "Falsches Passwort!",
+			"NOT_SUPPORTED_OS" 	=> "Ihr Betriebssystem unterstützt nicht!",
+			"SUPPORTED_OS" 		=> "Unterstützt momentan nur Linux-Distributionen."
 		];
 		break;
-	
+		
 	default: print "Select script language first."; exit; break;
 }
 
