@@ -19,7 +19,7 @@ GitHub-> https://github.com/isaekn
 */
 
 // Set script language
-// Languages => "tr_TR", "en_US", "ru_RU", "fr_FR"
+// Languages => "tr_TR", "en_US", "ru_RU", "fr_FR", "de_DE"
 $Language = "tr_TR";
 
 // Active "USERNAME & PASSWORD" login.
@@ -122,7 +122,30 @@ switch ($Language)
 			"SUPPORTED_OS" 		=> "Soutenir uniquement les distributions Linux pour l'instant."
 		];
 		break;
-	
+		
+	case "de_DE":	
+		$Lang = 
+		[
+			"TITLE" 			=> "Live-Maschinenstatistiken",
+			"UPDATED" 			=> "Daten aktualisiert.",
+			"NOW" 				=> "Jetzt",
+			"REFRESH"			=> "Aktualisierung",
+			"LOADING" 			=> "Wird geladen...",
+			"CPUUSAGE" 			=> "CPU auslastung",
+			"CORES" 			=> "Ader",
+			"VALUE" 			=> "Wert",
+			"NETWORK" 			=> "Netzwerk",
+			"LOGIN" 			=> "Einloggen",
+			"LOGOUT" 			=> "Ausloggen",
+			"USERNAME" 			=> "Nutzername",
+			"PASSWORD" 			=> "Passwort",
+			"WRONG_USERNAME" 	=> "Falscher Benutzername!",
+			"WRONG_PASSWORD" 	=> "Falsches Passwort!",
+			"NOT_SUPPORTED_OS" 	=> "Ihr Betriebssystem unterstützt nicht!",
+			"SUPPORTED_OS" 		=> "Unterstützt momentan nur Linux-Distributionen."
+		];
+		break;
+		
 	default: print "Select script language first."; exit; break;
 }
 
